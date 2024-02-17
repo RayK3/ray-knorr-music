@@ -14,7 +14,12 @@ module.exports = {
         "raisin-black": "#2D2A32",
         "myrtle-green": "#387780",
         "dark-slate-gray": "#2C5C63",
+
+        // sse palette
         mint: "#03CEA4",
+        celeste: "#D6FFFD",
+        "cal-poly-green": "#25442E",
+        "ultra-violet": "#545479",
       },
     },
   },

@@ -50,7 +50,7 @@ export const Root = () => {
       <img
         src="/white-logo-1000.png"
         alt="White Logo"
-        className="absolute z-10 w-16 h-auto top-8 left-8"
+        className="absolute z-10 w-16 h-auto top-8 right-8"
       />
       <div
         className={`text-center px-8 py-4 bg-seal-brown rounded-3xl align-middle -translate-x-[50%] text-4xl font-bold absolute top-1/4 left-1/2 z-10 duration-150 ease-out text-white ${
