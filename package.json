@@ -1,5 +1,6 @@
 {
-  "name": "ray-knorr-music",
+  "name": "raymondknorr",
+  "homepage": "https://raymondknorr.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

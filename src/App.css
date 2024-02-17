@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Fragment Mono Regular";
+  src: url("../public/FragmentMono-Regular.ttf");
+}
+@font-face {
+  font-family: "Nanum Pen Script Regular";
+  src: url("../public/NanumPenScript-Regular.ttf");
+}
+@font-face {
+  font-family: "Niconne Regular";
+  src: url("../public/Niconne-Regular.ttf");
+}

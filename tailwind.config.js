@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./src/**/*.{html,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "fragment-mono": ['"Fragment Mono Regular"'],
+        nanum: ['"Nanum Pen Script Regular"'],
+        niconne: ['"Niconne Regular"'],
+      },
+    },
   },
   plugins: [],
 };
