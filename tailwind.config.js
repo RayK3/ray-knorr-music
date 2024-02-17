@@ -8,7 +8,16 @@ module.exports = {
         nanum: ['"Nanum Pen Script Regular"'],
         niconne: ['"Niconne Regular"'],
       },
+      fontSize: {
+        "2.5xl": "1.6875rem",
+      },
+      spacing: {
+        "1/5": "20%",
+        "2/5": "40%",
+        full: "100%",
+      },
       colors: {
+        // music palette
         sunglow: "#FED33C",
         "seal-brown": "#642816",
         "raisin-black": "#2D2A32",

@@ -7,9 +7,7 @@ export const MusicBase = () => {
         <img src="/sunglow-logo-1000.png" alt="Sunglow Logo" />
       </a>
       <div className="absolute top-32">
-        <p className="px-10 text-xl font-fragment-mono text-sunglow">
-          Coming soon...
-        </p>
+        <p className="px-10 text-xl text-sunglow">Coming soon...</p>
       </div>
     </div>
   );
