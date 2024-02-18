@@ -14,7 +14,7 @@ export const MusicBase = () => {
         <img src="/sunglow-logo-1000.png" alt="Sunglow Logo" />
       </a>
       <div className="absolute pb-20 top-32 md:pb-36">
-        <p className="px-10 text-xl text-sunglow">Coming soon...</p>
+        <p className="px-10 text-xl text-sunglow">Coming soon.</p>
       </div>
       <Footer
         textColour="text-sunglow"
