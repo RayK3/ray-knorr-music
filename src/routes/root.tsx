@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 type LinkHovered = "left" | "none" | "right";
 
@@ -67,14 +68,14 @@ export const Root = () => {
             alt="Ray Softwaring"
           />
           {linkHovered !== "right" && (
-            <a
-              href="/sse"
+            <Link
+              to="/sse"
               className={`z-10 px-5 py-2 mr-2 text-lg md:text-xl font-fragment-mono mb-full md:mb-0 rounded-xl ${leftLinkClasses}`}
               onMouseEnter={() => setLinkHovered("left")}
               onMouseLeave={() => setLinkHovered("none")}
             >
               The Software Engineer
-            </a>
+            </Link>
           )}
         </div>
         <div className="relative flex items-end md:items-center justify-beginning w-1/2 h-full overflow-hidden bg-gradient-to-r from-[#573b14] to-[#655750]">
@@ -84,14 +85,14 @@ export const Root = () => {
             alt="Ray Fiddling"
           />
           {linkHovered !== "left" && (
-            <a
-              href="/music"
+            <Link
+              to="/music"
               className={`z-10 px-5 py-2 ml-4 text-2.5xl md:text-4xl font-niconne mb-full md:mb-0 rounded-xl ${rightLinkClasses}`}
               onMouseEnter={() => setLinkHovered("right")}
               onMouseLeave={() => setLinkHovered("none")}
             >
               The Musician
-            </a>
+            </Link>
           )}
         </div>
       </div>
