@@ -1,13 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Card } from "../components";
+import { Footer } from "../components";
+import { sseSocials } from "../data/socials";
 
 export const SoftwareBase = () => {
+  useEffect(() => {
+    document.title = "Ray Knorr - SSE";
+    document.body.classList.add("bg-cal-poly-green");
+  }, []);
+
   return (
-    <div className="relative w-screen h-screen bg-cal-poly-green">
+    <div className="relative w-screen h-screen pb-20 md:pb-36 bg-cal-poly-green">
       <a href="/" className="absolute z-10 w-16 h-auto top-8 right-8">
         <img src="/celeste-logo-1000.png" alt="Celeste Logo" />
       </a>
-      <div className="absolute top-32">
+      <div className="absolute pb-20 top-32 md:pb-36">
         <p className="px-10 text-xl font-fragment-mono text-celeste">
           Hi, I'm Ray Knorr. I'm a software engineer.
         </p>
@@ -51,6 +58,12 @@ export const SoftwareBase = () => {
           borderColour="border-ultra-violet"
         />
       </div>
+      <Footer
+        textColour="text-celeste"
+        bgColour="bg-cal-poly-green"
+        iconColour="text-celeste hover:text-dark-celeste"
+        socials={sseSocials}
+      />
     </div>
   );
 };

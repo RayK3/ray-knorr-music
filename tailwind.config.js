@@ -18,6 +18,7 @@ module.exports = {
       },
       colors: {
         // music palette
+        "light-sunglow": "#FEDB5D",
         sunglow: "#FED33C",
         "seal-brown": "#642816",
         "raisin-black": "#2D2A32",
@@ -27,6 +28,7 @@ module.exports = {
         // sse palette
         mint: "#03CEA4",
         celeste: "#D6FFFD",
+        "dark-celeste": "#ADFFFB",
         "cal-poly-green": "#25442E",
         "ultra-violet": "#545479",
       },
