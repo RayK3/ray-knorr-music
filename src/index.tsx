@@ -1,7 +1,15 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ReactDOM from "react-dom/client";
-import { MusicBase, Root, SoftwareBase } from "./routes";
+import {
+  MusicBase,
+  Root,
+  SoftwareBase,
+  MusicBio,
+  MusicContact,
+  MusicMedia,
+  MusicShows,
+} from "./routes";
 import { ErrorPage } from "./pages";
 import "./tailwind.css";
 
@@ -31,6 +39,26 @@ const router = createBrowserRouter([
   {
     path: "/music",
     element: <MusicBase />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/music/bio",
+    element: <MusicBio />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/music/media",
+    element: <MusicMedia />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/music/shows",
+    element: <MusicShows />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/music/contact",
+    element: <MusicContact />,
     errorElement: <ErrorPage />,
   },
   {

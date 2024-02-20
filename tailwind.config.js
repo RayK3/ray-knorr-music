@@ -20,6 +20,7 @@ module.exports = {
         // music palette
         "light-sunglow": "#FEDB5D",
         sunglow: "#FED33C",
+        "dark-sunglow": "#CB9F01",
         "seal-brown": "#642816",
         "raisin-black": "#2D2A32",
         "myrtle-green": "#387780",

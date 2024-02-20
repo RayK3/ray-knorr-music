@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import { Footer, Header } from "../components";
 import { musicSocials, musicHeaderLinks } from "../data";
 
-export const MusicBase = () => {
+export const MusicShows = () => {
   useEffect(() => {
-    document.title = "Ray Knorr - Musician";
+    document.title = "Ray Knorr - Shows";
     document.body.classList.add("bg-seal-brown");
   }, []);
 
@@ -20,7 +20,7 @@ export const MusicBase = () => {
         links={musicHeaderLinks}
       />
       <div className="absolute pb-20 top-32 md:pb-36">
-        <p className="px-10 text-xl text-sunglow">Coming soon.</p>
+        <p className="px-10 text-xl text-sunglow">Shows coming soon.</p>
       </div>
       <Footer
         textColour="text-sunglow"
