@@ -2,7 +2,7 @@ import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import {
-  MusicBase,
+  MusicHome,
   Root,
   SoftwareBase,
   MusicBio,
@@ -38,7 +38,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/music",
-    element: <MusicBase />,
+    element: <MusicHome />,
     errorElement: <ErrorPage />,
   },
   {

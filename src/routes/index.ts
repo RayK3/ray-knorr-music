@@ -1,5 +1,5 @@
 export * from "./root";
-export * from "./musicBase";
+export * from "./musicHome";
 export * from "./musicBio";
 export * from "./musicContact";
 export * from "./musicMedia";
