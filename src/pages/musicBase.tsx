@@ -12,7 +12,7 @@ export const MusicBase = ({ title, children }: MusicBaseProps) => {
   useEffect(() => {
     document.title = title;
     document.body.classList.add("bg-seal-brown");
-  }, []);
+  }, [title]);
 
   return (
     <div className="relative w-screen h-screen bg-seal-brown">
