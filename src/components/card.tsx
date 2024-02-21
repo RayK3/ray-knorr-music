@@ -6,6 +6,8 @@ interface CardProps {
   bgColour: string;
   textColour: string;
   borderColour?: string;
+  className?: string;
+  titleClassName?: string;
 }
 
 export const Card = ({
@@ -14,15 +16,19 @@ export const Card = ({
   bgColour,
   textColour,
   borderColour = "",
+  className = "",
+  titleClassName = "",
 }: CardProps): JSX.Element => {
   return (
     <div
-      className={`px-4 py-5 mx-8 mt-6 border-2 rounded-2xl sm:px-6 ${bgColour} ${borderColour}`}
+      className={`px-4 pt-5 md:pb-5 mx-8 mt-6 border-2 rounded-2xl sm:px-6 ${bgColour} ${borderColour} ${className}`}
     >
-      <h3 className={`text-base font-semibold leading-6 ${textColour}`}>
+      <h3
+        className={`text-base font-semibold leading-6 ${textColour} ${titleClassName}`}
+      >
         {title}
       </h3>
-      <p className={`mt-1 text-sm ${textColour}`}>{body}</p>
+      <div className={`mt-1 text-sm ${textColour}`}>{body}</div>
     </div>
   );
 };

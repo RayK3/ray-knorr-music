@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Footer, Header } from "../components";
+import { Footer, Header, ContactForm, Card } from "../components";
 import { musicSocials, musicHeaderLinks } from "../data";
 
 export const MusicContact = () => {
@@ -19,11 +19,17 @@ export const MusicContact = () => {
         bgColour="bg-seal-brown"
         links={musicHeaderLinks}
       />
-      <div className="absolute pb-20 top-32 md:pb-36">
-        <p className="px-10 text-xl text-sunglow">
-          Contact details coming soon.
-        </p>
+      <div className="flex flex-row items-center justify-center w-full">
+        <Card
+          title="Contact"
+          textColour="text-seal-brown"
+          bgColour="bg-white"
+          body={<ContactForm textColour="text-dark-sunglow" />}
+          className="max-w-7xl w-9/10 md:w-3/4"
+          titleClassName="w-full text-center md:pt-4 text-xl md:text-2xl"
+        />
       </div>
+
       <Footer
         textColour="text-sunglow"
         bgColour="bg-seal-brown"

@@ -16,6 +16,9 @@ module.exports = {
         "2/5": "40%",
         full: "100%",
       },
+      width: {
+        "9/10": "90%",
+      },
       colors: {
         // music palette
         "light-sunglow": "#FEDB5D",
