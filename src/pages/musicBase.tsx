@@ -11,7 +11,11 @@ interface MusicBaseProps {
 export const MusicBase = ({ title, children }: MusicBaseProps) => {
   useEffect(() => {
     document.title = title;
-    document.body.classList.add("bg-seal-brown");
+    document.body.classList.add(
+      "bg-gradient-to-br",
+      "from-light-seal-brown",
+      "to-seal-brown"
+    );
   }, [title]);
 
   return (
@@ -28,7 +32,6 @@ export const MusicBase = ({ title, children }: MusicBaseProps) => {
       <div className="relative">{children}</div>
       <Footer
         textColour="text-sunglow"
-        // bgColour="bg-seal-brown"
         iconColour="text-light-sunglow hover:text-sunglow"
         socials={musicSocials}
       />
