@@ -5,14 +5,14 @@ import { SocialMediaIconType } from "../data/socials";
 interface FooterProps {
   textColour: string;
   iconColour: string;
-  bgColour: string;
+  bgColour?: string;
   socials: SocialMediaIconType[];
 }
 
 export const Footer = ({
   textColour,
   iconColour,
-  bgColour,
+  bgColour = "",
   socials,
 }: FooterProps): JSX.Element => {
   const [atBottom, setAtBottom] = useState(false);

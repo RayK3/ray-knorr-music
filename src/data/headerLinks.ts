@@ -12,14 +12,15 @@ export const musicHeaderLinks: HeaderLinkType[] = [
     name: "BIO",
     to: "/music/bio",
   },
-  {
-    name: "MEDIA",
-    to: "/music/media",
-  },
-  {
-    name: "SHOWS",
-    to: "/music/shows",
-  },
+  // TODO add these in as pages are completed
+  // {
+  //   name: "MEDIA",
+  //   to: "/music/media",
+  // },
+  // {
+  //   name: "SHOWS",
+  //   to: "/music/shows",
+  // },
   {
     name: "CONTACT",
     to: "/music/contact",
