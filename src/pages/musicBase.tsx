@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
-import { Footer, Header, BackButton } from "../components";
+import { Footer, Header } from "../components";
 import { musicSocials, musicHeaderLinks } from "../data";
 
 interface MusicBaseProps {
@@ -19,15 +18,11 @@ export const MusicBase = ({ title, children }: MusicBaseProps) => {
   }, [title]);
 
   return (
-    <div className="relative w-screen h-screen bg-gradient-to-br from-light-seal-brown to-seal-brown">
-      <BackButton className="absolute z-10 w-12 h-auto text-dark-sunglow hover:text-sunglow hover:cursor-pointer top-12 left-4 md:left-16" />
-      <Link to="/" className="absolute z-10 w-16 h-auto top-8 right-8">
-        <img src="/sunglow-logo-1000.png" alt="Sunglow Logo" />
-      </Link>
+    <div className="relative w-screen h-screen overflow-hidden bg-gradient-to-br from-light-seal-brown to-seal-brown">
       <div className="flex flex-col h-full overflow-auto">
         <Header
           textColour="text-sunglow hover:text-sunglow"
-          className="pt-16 md:pt-0"
+          className=""
           links={musicHeaderLinks}
         />
         <div className="relative flex-grow">{children}</div>

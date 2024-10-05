@@ -7,6 +7,7 @@ module.exports = {
         "fragment-mono": ['"Fragment Mono Regular"'],
         nanum: ['"Nanum Pen Script Regular"'],
         niconne: ['"Niconne Regular"'],
+        raleway: ['"Raleway Regular"'],
       },
       fontSize: {
         "2.5xl": "1.6875rem",
@@ -21,6 +22,7 @@ module.exports = {
       },
       colors: {
         // music palette
+        "extreme-light-sunglow": "#fff1bd",
         "light-sunglow": "#FEDB5D",
         sunglow: "#FED33C",
         "dark-sunglow": "#CB9F01",

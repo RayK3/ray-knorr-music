@@ -1,5 +1,6 @@
 import React from "react";
 import { MusicBase } from "../pages";
+import { Card } from "../components";
 import { musicShortBio } from "../data";
 
 export const MusicHome = () => {
@@ -11,9 +12,14 @@ export const MusicHome = () => {
           src="/ray-music-fiddle-home.jpg"
           alt="Ray smiling with a fiddle in his hands"
         />
-        <div className="px-4 pt-8 text-sm md:pt-0 md:text-xl md:px-15 text-sunglow">
-          {musicShortBio}
-        </div>
+        <Card
+          className="p-4 md:px-15"
+          body={musicShortBio}
+          bgColour="bg-extreme-light-sunglow"
+          borderColour="border-extreme-light-sunglow"
+          textColour="text-raisin-black"
+          bodyClassName="md:p-6 text-md md:text-lg font-raleway"
+        />
       </div>
     </MusicBase>
   );
