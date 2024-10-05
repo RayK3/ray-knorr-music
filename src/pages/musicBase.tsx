@@ -24,17 +24,20 @@ export const MusicBase = ({ title, children }: MusicBaseProps) => {
       <Link to="/" className="absolute z-10 w-16 h-auto top-8 right-8">
         <img src="/sunglow-logo-1000.png" alt="Sunglow Logo" />
       </Link>
-      <Header
-        textColour="text-sunglow hover:text-sunglow"
-        className="pt-16 md:pt-0"
-        links={musicHeaderLinks}
-      />
-      <div className="relative">{children}</div>
-      <Footer
-        textColour="text-sunglow"
-        iconColour="text-light-sunglow hover:text-sunglow"
-        socials={musicSocials}
-      />
+      <div className="flex flex-col h-full overflow-auto">
+        <Header
+          textColour="text-sunglow hover:text-sunglow"
+          className="pt-16 md:pt-0"
+          links={musicHeaderLinks}
+        />
+        <div className="relative flex-grow">{children}</div>
+        <Footer
+          textColour="text-sunglow"
+          iconColour="text-light-sunglow hover:text-sunglow"
+          bgColour="bg-raisin-black"
+          socials={musicSocials}
+        />
+      </div>
     </div>
   );
 };

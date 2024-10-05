@@ -32,13 +32,13 @@ export const Footer = ({
   }, []);
 
   return (
-    <footer className={`fixed bottom-0 w-full ${bgColour}`}>
+    <footer className={`w-full ${bgColour} mt-4`}>
       <div
-        className={`flex flex-row items-center px-6 py-4 mx-auto overflow-hidden md:block md:py-10 justify-evenly transition-all duration-500 ${
+        className={`flex flex-row items-center px-6 py-4 mx-auto overflow-hidden justify-center transition-all duration-500 ${
           atBottom && ""
         }`}
       >
-        <div className="flex justify-center space-x-5 md:space-x-10 ">
+        <div className="flex justify-center space-x-5">
           {socials.map((item) => (
             <a key={item.name} href={item.href} className={`${iconColour}`}>
               <span className="sr-only">{item.name}</span>
@@ -46,9 +46,7 @@ export const Footer = ({
             </a>
           ))}
         </div>
-        <p
-          className={`my-3 ml-6 md:ml-0 md:mt-6 md:mb-0 text-xs leading-5 text-center ${textColour}`}
-        >
+        <p className={`my-3 ml-12 text-xs leading-5 text-center ${textColour}`}>
           &copy; 2024 Ray Knorr. All rights reserved.
         </p>
       </div>

@@ -15,9 +15,9 @@ export const Header = ({
   className = "",
 }: HeaderProps): JSX.Element => {
   return (
-    <header className={`w-full flex flex-row justify-end ${className}`}>
+    <header className={`w-full flex flex-row justify-end pb-8 ${className}`}>
       <div
-        className={`flex flex-row w-4/5 md:w-2/5 items-center px-6 pt-14 pb-4 mx-auto overflow-hidden justify-evenly`}
+        className={`flex flex-row w-4/5 md:w-2/5 items-center px-6 pt-14 pb-8 mx-auto overflow-hidden justify-evenly`}
       >
         {links.map((link) => (
           <Link
