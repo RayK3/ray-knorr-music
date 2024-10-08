@@ -34,6 +34,7 @@ module.exports = {
         "light-seal-brown": "#a16102",
         "seal-brown": "#642816",
         "raisin-black": "#2D2A32",
+        "dark-raisin-black": "#211f24",
         "myrtle-green": "#387780",
         "dark-slate-gray": "#2C5C63",
 

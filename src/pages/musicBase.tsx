@@ -32,14 +32,14 @@ export const MusicBase = ({
       <div className="flex flex-col h-full overflow-auto">
         <Header
           textColour="text-light-sunglow hover:text-sunglow"
-          className="bg-raisin-black"
+          className="bg-dark-raisin-black"
           links={musicHeaderLinks}
         />
         <div className="relative flex-grow overflow-auto">{children}</div>
         <Footer
           textColour="text-sunglow"
           iconColour="text-light-sunglow hover:text-sunglow"
-          bgColour="bg-raisin-black"
+          bgColour="bg-dark-raisin-black"
           socials={musicSocials}
         />
       </div>

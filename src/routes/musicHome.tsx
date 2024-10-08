@@ -4,7 +4,7 @@ import { musicShortBio, gammonsKnorrBio, rayAndKaiBio } from "../data";
 
 export const MusicHome = () => {
   return (
-    <MusicBase title="Music | Ray Knorr">
+    <MusicBase title="Music | Ray Knorr" bg="bg-raisin-black">
       <div className="w-full py-8 pl-10 text-4xl text-left md:pl-0 md:text-center md:text-6xl md:py-16 font-ibmplex text-light-sunglow">
         RAY KNORR
       </div>
