@@ -48,7 +48,9 @@ export const Footer = ({
             </a>
           ))}
         </div>
-        <p className={`my-3 ml-12 text-xs leading-5 text-center ${textColour}`}>
+        <p
+          className={`my-3 ml-auto text-xs leading-5 text-center ${textColour}`}
+        >
           &copy; 2024 Ray Knorr. All rights reserved.
         </p>
       </div>

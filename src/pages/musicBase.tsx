@@ -26,7 +26,7 @@ export const MusicBase = ({
 
   return (
     <div
-      className={`relative w-screen h-screen overflow-hidden ${bg}`}
+      className={`relative w-screen h-dvh overflow-hidden ${bg}`}
       style={style}
     >
       <div className="flex flex-col h-full overflow-auto">
