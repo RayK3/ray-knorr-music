@@ -33,7 +33,7 @@ export const Header = ({
           ))}
         </div>
         <Link to="/" className="z-10 w-16 h-auto mr-6 md:mr-4">
-          <img src="/sunglow-logo-1000.png" alt="Sunglow Logo" />
+          <img src="/logos/sunglow-logo-1000.png" alt="Sunglow Logo" />
         </Link>
       </div>
     </header>

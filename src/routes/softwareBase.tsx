@@ -13,7 +13,7 @@ export const SoftwareBase = () => {
   return (
     <div className="relative w-screen h-screen pb-20 md:pb-36 bg-cal-poly-green">
       <Link to="/" className="absolute z-10 w-16 h-auto top-8 right-8">
-        <img src="/celeste-logo-1000.png" alt="Celeste Logo" />
+        <img src="/logos/celeste-logo-1000.png" alt="Celeste Logo" />
       </Link>
       <div className="absolute pb-20 top-32 md:pb-36">
         <p className="px-10 text-xl font-fragment-mono text-celeste">

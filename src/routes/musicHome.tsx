@@ -9,7 +9,7 @@ export const MusicHome = () => {
       <div className="flex flex-col justify-center md:flex-row">
         <img
           className="object-contain w-full px-5 md:w-3/5 md:pl-15 lg:w-1/2"
-          src="/ray-music-fiddle-home.jpg"
+          src="/images/ray-music-fiddle-home.jpg"
           alt="Ray smiling with a fiddle in his hands"
         />
         <Card

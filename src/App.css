@@ -4,17 +4,17 @@
 
 @font-face {
   font-family: "Fragment Mono Regular";
-  src: url("../public/FragmentMono-Regular.ttf");
+  src: url("../public/fonts/FragmentMono-Regular.ttf");
 }
 @font-face {
   font-family: "Nanum Pen Script Regular";
-  src: url("../public/NanumPenScript-Regular.ttf");
+  src: url("../public/fonts/NanumPenScript-Regular.ttf");
 }
 @font-face {
   font-family: "Niconne Regular";
-  src: url("../public/Niconne-Regular.ttf");
+  src: url("../public/fonts/Niconne-Regular.ttf");
 }
 @font-face {
   font-family: "Raleway Regular";
-  src: url("../public/Raleway-Regular.ttf");
+  src: url("../public/fonts/Raleway-Regular.ttf");
 }

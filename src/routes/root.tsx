@@ -49,7 +49,7 @@ export const Root = () => {
   return (
     <div className="relative h-screen">
       <img
-        src="/white-logo-1000.png"
+        src="/logos/white-logo-1000.png"
         alt="White Logo"
         className="absolute z-10 w-16 h-auto top-8 right-8"
       />
@@ -63,7 +63,7 @@ export const Root = () => {
       <div className="flex flex-row justify-center h-full overflow-hidden">
         <div className="relative flex items-end md:items-center justify-end w-1/2 h-full bg-gradient-to-r from-[#070605] via-[#2c1b06] to-[#573b14]">
           <img
-            src="/ray-smiling-software.jpg"
+            src="/images/ray-smiling-software.jpg"
             className={`absolute object-contain h-full duration-100 ease-out ${leftImageClasses}`}
             alt="Ray Softwaring"
           />
@@ -80,7 +80,7 @@ export const Root = () => {
         </div>
         <div className="relative flex items-end md:items-center justify-beginning w-1/2 h-full overflow-hidden bg-gradient-to-r from-[#573b14] to-[#655750]">
           <img
-            src="/ray-smiling-fiddle.jpg"
+            src="/images/ray-smiling-fiddle.jpg"
             className={`absolute object-contain h-full duration-100 ease-out ${rightImageClasses}`}
             alt="Ray Fiddling"
           />
