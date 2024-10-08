@@ -1,6 +1,5 @@
 import React from "react";
 import { MusicBase } from "../pages";
-import { Card } from "../components";
 import { musicShortBio, gammonsKnorrBio, rayAndKaiBio } from "../data";
 
 export const MusicHome = () => {
