@@ -47,7 +47,7 @@ export const MusicHome = () => {
           <div className="flex flex-col md:flex-row">
             <img
               className="object-contain w-4/5 md:w-1/2"
-              src="/images/ray-kai-at-julies.jpg"
+              src="/images/ray-and-kai-at-julies.jpg"
               alt="Ray & Kai | Tunes and Video Shoot at Julie's in Vancouver, BC"
             />
             <p className="pt-8 text-lg whitespace-pre-line md:pt-0 md:pl-12 text-very-light-sunglow font-raleway">
