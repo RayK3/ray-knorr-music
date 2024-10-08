@@ -1,5 +1,4 @@
-export const musicLongBio = `
-  For his fourth birthday, Ray Knorr received a toy fiddle from his uncle Mike, and by the fall he had asked his mom if he could take fiddle lessons. Studying under the great Everett Larson in Saskatoon, Saskatchewan, Ray was introduced to the wonderful Canadian Old Time fiddling scene. 
+export const musicLongBio = `For his fourth birthday, Ray Knorr received a toy fiddle from his uncle Mike, and by the fall he had asked his mom if he could take fiddle lessons. Studying under the great Everett Larson in Saskatoon, Saskatchewan, Ray was introduced to the wonderful Canadian Old Time fiddling scene. 
 
 Ray grew up competing at fiddle competitions and attending camps across Saskatchewan and Western Canada, notably the John Arcand Fiddle Fest, Emma Lake Fiddle Camp, and Camp Calvin. His family moved to Regina, where he performed and recorded two studio albums with his siblings Tash and Ben as “The Knorr Kids”. Ray has received many accolades from Canadian fiddle competitions, as a two-time Grand North American Fiddle Champion, a three-time Saskatchewan Fiddle Champion, and a four-time finalist at the Canadian Grandmasters fiddling competition by the time he was 24. 
 
@@ -9,14 +8,16 @@ After graduating from the University of Regina with a Software Systems Engineeri
 
 At the end of the summer of 2023, after a cross-country road trip, Ray moved to his current home of Charlottetown, PEI, where he fell in love with the fiddling traditions of the Canadian Maritimes. Ray quickly began performing, teaching and hosting sessions locally. With guitarist Tom Gammons, he formed the versatile trad duo Gammons & Knorr.
 
-In July of 2024, Ray participated in Ethno Estonia, an incredible ethnomusicology camp held near Viljandi, Estonia. He and his cohort learned, arranged, and performed traditional music from across Europe and the world at the Viljandi Folk Festival.
+In July of 2024, Ray participated in Ethno Estonia, an ethnomusicology camp held near Viljandi, Estonia. He and his cohort learned, arranged, and performed traditional music from across Europe and the world at the Viljandi Folk Festival.
 
 Ray continues to enjoy learning, teaching, and immersing himself in the world of traditional music and is currently working on recording/touring an EP with Gammons & Knorr in late 2024/early 2025. 
 
 `;
 
-export const musicShortBio = `
-  Raymond Knorr is a multi-instrumentalist, and singer currently living on Prince Edward Island, Canada. Originally from Regina, Saskatchewan, Canada, Ray began taking fiddle lessons at four years old, and bass guitar lessons at eight. Ray grew up competing at fiddle competitions, performing shows and attending camps across Western Canada. Ray lived in Vancouver BC for two years and had the opportunity to sing with the incredible Vancouver Youth Choir. In July 2024, Ray was honored to perform with the other participants of Ethno Estonia at the Viljandi Folk Festival in Viljandi, Estonia. 
+export const musicShortBio = `Raymond Knorr is a multi-instrumentalist, and singer currently living on Prince Edward Island, Canada. Originally from Regina, Saskatchewan, Canada, Ray began taking fiddle lessons at four years old, and bass guitar lessons at eight. Ray grew up competing at fiddle competitions, performing shows and attending camps across Western Canada. Ray lived in Vancouver BC for two years and had the opportunity to sing with the incredible Vancouver Youth Choir. In July 2024, Ray was honored to perform with the other participants of Ethno Estonia at the Viljandi Folk Festival in Viljandi, Estonia. 
 
   Whether as a performer, a teacher, or a student, Ray always shows his passion for music and his love for sharing it with others.
 `;
+
+export const gammonsKnorrBio = `Ray Knorr grew up in Regina, Saskatchewan playing Canadian Old Time and Métis fiddle in his family band and competing in competitions across Western Canada. Ray was exposed to a lot of diverse music outside of fiddle, playing guitar, bass guitar, viola and singing choral music. Travelling across Canada for festivals, camps and competitions introduced him to many additional fiddle styles, and he now draws influences from French Canadian, Irish, Cape Breton, Scottish, and American Old Time. Having moved to PEI last year, Ray Knorr is joined by guitarist Tom Gammons. Together, they wish to share the joy and life they’ve found in their full spectrum of traditional and modern fiddle styles.`;
+export const rayAndKaiBio = `Raymond Knorr (guitar, voice, & fiddle) & Kai Gronberg (fiddle) are a folk & fiddle duo performing around Vancouver, BC. Meeting over a decade ago through the rich and vibrant culture of prairie fiddle camps & contests, they began creating together at an early age. Provincial Champions in their respective home provinces of Saskatchewan and BC, Ray & Kai draw influence from the traditional Canadian fiddle styles that they were raised with alongside contemporary folk styles that continue to inspire them. Featuring lively twin fiddle arrangements, sweet folk melodies, and traditional toe-tapping guitar + fiddle, the pair aim to preserve their fiddle roots while exploring their unique musical voices in the folk realm.`;

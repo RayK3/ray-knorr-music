@@ -5,15 +5,17 @@ import { SocialMediaIconType } from "../data/socials";
 interface FooterProps {
   textColour: string;
   iconColour: string;
-  bgColour?: string;
   socials: SocialMediaIconType[];
+  bgColour?: string;
+  className?: string;
 }
 
 export const Footer = ({
   textColour,
   iconColour,
-  bgColour = "",
   socials,
+  bgColour = "",
+  className = "",
 }: FooterProps): JSX.Element => {
   const [atBottom, setAtBottom] = useState(false);
 
@@ -32,7 +34,7 @@ export const Footer = ({
   }, []);
 
   return (
-    <footer className={`w-full ${bgColour} mt-4`}>
+    <footer className={`w-full ${bgColour} ${className}`}>
       <div
         className={`flex flex-row items-center px-6 py-4 mx-auto overflow-hidden justify-center transition-all duration-500 ${
           atBottom && ""

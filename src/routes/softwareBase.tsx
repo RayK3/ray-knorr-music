@@ -21,6 +21,7 @@ export const SoftwareBase = () => {
         </p>
         <Card
           title="Bio"
+          className="p-4"
           body="I'm a software engineer with a passion for web development. I specialize in front-end development, but I'm also comfortable working on the back-end. I have experience with a variety of technologies, including React, TypeScript, Node.js, and Python."
           bgColour="bg-celeste"
           textColour="text-ultra-violet"
@@ -32,6 +33,7 @@ export const SoftwareBase = () => {
         </p>
         <Card
           title="This Website"
+          className="p-4"
           body={
             <>
               I built this website using TypeScript, React.js and Tailwind CSS.
@@ -53,6 +55,7 @@ export const SoftwareBase = () => {
         />
         <Card
           title="Coming Soon"
+          className="p-4"
           body="Check back soon for more projects!"
           bgColour="bg-celeste"
           textColour="text-ultra-violet"
@@ -64,6 +67,7 @@ export const SoftwareBase = () => {
         bgColour="bg-cal-poly-green"
         iconColour="text-celeste hover:text-dark-celeste"
         socials={sseSocials}
+        className="absolute bottom-0"
       />
     </div>
   );

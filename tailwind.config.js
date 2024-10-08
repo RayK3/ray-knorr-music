@@ -8,6 +8,7 @@ module.exports = {
         nanum: ['"Nanum Pen Script Regular"'],
         niconne: ['"Niconne Regular"'],
         raleway: ['"Raleway Regular"'],
+        ibmplex: ['"IBMPlexSansArabic Regular"'],
       },
       fontSize: {
         "2.5xl": "1.6875rem",
@@ -17,12 +18,16 @@ module.exports = {
         "2/5": "40%",
         full: "100%",
       },
+      height: {
+        18: "4.5rem",
+      },
       width: {
         "9/10": "90%",
       },
       colors: {
         // music palette
         "extreme-light-sunglow": "#fff1bd",
+        "very-light-sunglow": "#fce388",
         "light-sunglow": "#FEDB5D",
         sunglow: "#FED33C",
         "dark-sunglow": "#CB9F01",

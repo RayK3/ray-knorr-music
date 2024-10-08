@@ -23,7 +23,7 @@ export const Card = ({
 }: CardProps): JSX.Element => {
   return (
     <div
-      className={`px-4 pt-5 md:pb-5 mx-8 border-2 rounded-2xl sm:px-6 ${bgColour} ${borderColour} ${className}`}
+      className={`mx-8 border-2 rounded-2xl whitespace-pre-line ${bgColour} ${borderColour} ${className}`}
     >
       {title && (
         <h3
@@ -32,9 +32,7 @@ export const Card = ({
           {title}
         </h3>
       )}
-      <div className={`mt-1 text-sm ${textColour} ${bodyClassName}`}>
-        {body}
-      </div>
+      <p className={`mt-1 text-sm ${textColour} ${bodyClassName}`}>{body}</p>
     </div>
   );
 };

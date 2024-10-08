@@ -38,7 +38,7 @@ export const ContactForm = ({ textColour }: ContactFormProps): JSX.Element => {
   };
 
   return (
-    <div className="flex flex-row justify-center py-5 md:py-0 md:pt-10 md:pb-5">
+    <div className="flex flex-row justify-center py-5 md:py-0 md:pt-20 md:pb-10">
       <form
         className="flex flex-col w-9/10 min-w-md"
         onSubmit={sendEmail}

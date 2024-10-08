@@ -18,3 +18,7 @@
   font-family: "Raleway Regular";
   src: url("../public/fonts/Raleway-Regular.ttf");
 }
+@font-face {
+  font-family: "IBMPlexSansArabic Regular";
+  src: url("../public/fonts/IBMPlexSansArabic-Regular.ttf");
+}

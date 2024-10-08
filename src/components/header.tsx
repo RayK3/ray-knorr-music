@@ -16,23 +16,23 @@ export const Header = ({
   className = "",
 }: HeaderProps): JSX.Element => {
   return (
-    <header className={`w-full flex flex-row justify-end pb-8 ${className}`}>
+    <header className={`w-full flex flex-row justify-end ${className}`}>
       <div
-        className={`flex flex-row w-full items-center px-6 h-24 overflow-hidden justify-between`}
+        className={`flex flex-row w-full items-center px-6 h-18 overflow-hidden`}
       >
-        <BackButton className="z-10 w-12 h-auto ml-6 md:ml-4 text-dark-sunglow hover:text-sunglow hover:cursor-pointer " />
-        <div>
+        <BackButton className="z-10 h-auto ml-6 w-9 md:ml-4 text-dark-sunglow hover:text-sunglow hover:cursor-pointer " />
+        <div className="flex flex-row justify-end flex-grow pr-8">
           {links.map((link) => (
             <Link
               key={link.name}
               to={link.to}
-              className={`${textColour} text-xs md:text-lg px-4 py-16 md:px-12`}
+              className={`${textColour} text-xs md:text-base px-1 md:px-3`}
             >
               {link.name}
             </Link>
           ))}
         </div>
-        <Link to="/" className="z-10 w-16 h-auto mr-6 md:mr-4">
+        <Link to="/" className="z-10 w-12 h-auto mr-6 md:mr-4">
           <img src="/logos/sunglow-logo-1000.png" alt="Sunglow Logo" />
         </Link>
       </div>

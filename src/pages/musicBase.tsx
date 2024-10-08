@@ -5,9 +5,16 @@ import { musicSocials, musicHeaderLinks } from "../data";
 interface MusicBaseProps {
   title: string;
   children: React.ReactNode;
+  bg?: string;
+  style?: any;
 }
 
-export const MusicBase = ({ title, children }: MusicBaseProps) => {
+export const MusicBase = ({
+  title,
+  children,
+  bg = "bg-black",
+  style = {},
+}: MusicBaseProps) => {
   useEffect(() => {
     document.title = title;
     document.body.classList.add(
@@ -18,14 +25,17 @@ export const MusicBase = ({ title, children }: MusicBaseProps) => {
   }, [title]);
 
   return (
-    <div className="relative w-screen h-screen overflow-hidden bg-gradient-to-br from-light-seal-brown to-seal-brown">
+    <div
+      className={`relative w-screen h-screen overflow-hidden ${bg}`}
+      style={style}
+    >
       <div className="flex flex-col h-full overflow-auto">
         <Header
-          textColour="text-sunglow hover:text-sunglow"
-          className=""
+          textColour="text-light-sunglow hover:text-sunglow"
+          className="bg-raisin-black"
           links={musicHeaderLinks}
         />
-        <div className="relative flex-grow">{children}</div>
+        <div className="relative flex-grow overflow-auto">{children}</div>
         <Footer
           textColour="text-sunglow"
           iconColour="text-light-sunglow hover:text-sunglow"

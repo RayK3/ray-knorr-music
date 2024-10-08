@@ -4,8 +4,8 @@ import { MusicBase } from "../pages";
 
 export const MusicContact = () => {
   return (
-    <MusicBase title="Ray Knorr - Contact">
-      <div className="flex flex-row items-center justify-center w-full">
+    <MusicBase title="Contact | Ray Knorr">
+      <div className="flex flex-row items-center justify-center w-full pt-8">
         <Card
           title="Contact"
           textColour="text-seal-brown"
