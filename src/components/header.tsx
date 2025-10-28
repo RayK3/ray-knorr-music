@@ -21,7 +21,7 @@ export const Header = ({
         className={`flex flex-row w-full items-center px-6 h-18 overflow-hidden`}
       >
         <BackButton className="z-10 h-auto ml-6 w-9 md:ml-4 text-dark-sunglow hover:text-sunglow hover:cursor-pointer " />
-        <div className="flex flex-row justify-end flex-grow pr-8">
+        <div className="flex flex-row justify-end grow pr-8">
           {links.map((link) => (
             <Link
               key={link.name}

@@ -18,7 +18,7 @@ export const MusicBase = ({
   useEffect(() => {
     document.title = title;
     document.body.classList.add(
-      "bg-gradient-to-br",
+      "bg-linear-to-br",
       "from-light-seal-brown",
       "to-seal-brown"
     );
@@ -35,7 +35,7 @@ export const MusicBase = ({
           className="bg-dark-raisin-black"
           links={musicHeaderLinks}
         />
-        <div className="relative flex-grow overflow-auto">{children}</div>
+        <div className="relative grow overflow-auto">{children}</div>
         <Footer
           textColour="text-sunglow"
           iconColour="text-light-sunglow hover:text-sunglow"

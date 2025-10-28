@@ -1,24 +1,51 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 @font-face {
   font-family: "Fragment Mono Regular";
-  src: url("../public/fonts/FragmentMono-Regular.ttf");
+  src: url("./fonts/FragmentMono-Regular.ttf");
 }
 @font-face {
   font-family: "Nanum Pen Script Regular";
-  src: url("../public/fonts/NanumPenScript-Regular.ttf");
+  src: url("./fonts/NanumPenScript-Regular.ttf");
 }
 @font-face {
   font-family: "Niconne Regular";
-  src: url("../public/fonts/Niconne-Regular.ttf");
+  src: url("./fonts/Niconne-Regular.ttf");
 }
 @font-face {
   font-family: "Raleway Regular";
-  src: url("../public/fonts/Raleway-Regular.ttf");
+  src: url("./fonts/Raleway-Regular.ttf");
 }
 @font-face {
   font-family: "IBMPlexSansArabic Regular";
-  src: url("../public/fonts/IBMPlexSansArabic-Regular.ttf");
+  src: url("./fonts/IBMPlexSansArabic-Regular.ttf");
+}
+
+@theme {
+  /* music palette */
+  --color-extreme-light-sunglow: #fff1bd;
+  --color-very-light-sunglow: #fce388;
+  --color-light-sunglow: #fedb5d;
+  --color-sunglow: #fed33c;
+  --color-dark-sunglow: #cb9f01;
+  --color-light-seal-brown: #a16102;
+  --color-seal-brown: #642816;
+  --color-raisin-black: #2d2a32;
+  --color-dark-raisin-black: #211f24;
+  --color-myrtle-green: #387780;
+  --color-dark-slate-gray: #2c5c63;
+
+  /* sse palette  */
+  --color-mint: #03cea4;
+  --color-celeste: #d6fffd;
+  --color-dark-celeste: #adfffb;
+  --color-cal-poly-green: #25442e;
+  --color-ultra-violet: #545479;
+
+  /* misc styles */
+  --font-fragment-mono: "Fragment Mono Regular";
+  --font-nanum: "Nanum Pen Script Regular";
+  --font-niconne: "Niconne Regular";
+  --font-raleway: "Raleway Regular";
+  --font-ibmplex: "IBMPlexSansArabic Regular";
 }

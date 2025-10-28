@@ -61,7 +61,7 @@ export const Root = () => {
         Who are you looking for?
       </div>
       <div className="flex flex-row justify-center h-full overflow-hidden">
-        <div className="relative flex items-end md:items-center justify-end w-1/2 h-full bg-gradient-to-r from-[#070605] via-[#2c1b06] to-[#573b14]">
+        <div className="relative flex items-end md:items-center justify-end w-1/2 h-full bg-linear-to-r from-[#070605] via-[#2c1b06] to-[#573b14]">
           <img
             src="/images/ray-smiling-software.jpg"
             className={`absolute object-contain h-full duration-100 ease-out ${leftImageClasses}`}
@@ -78,7 +78,7 @@ export const Root = () => {
             </Link>
           )}
         </div>
-        <div className="relative flex items-end md:items-center justify-beginning w-1/2 h-full overflow-hidden bg-gradient-to-r from-[#573b14] to-[#655750]">
+        <div className="relative flex items-end md:items-center justify-beginning w-1/2 h-full overflow-hidden bg-linear-to-r from-[#573b14] to-[#655750]">
           <img
             src="/images/ray-smiling-fiddle.jpg"
             className={`absolute object-contain h-full duration-100 ease-out ${rightImageClasses}`}
@@ -87,7 +87,7 @@ export const Root = () => {
           {linkHovered !== "left" && (
             <Link
               to="/music"
-              className={`z-10 px-5 py-2 ml-4 text-2.5xl md:text-4xl font-niconne mb-full md:mb-0 rounded-xl ${rightLinkClasses}`}
+              className={`z-10 px-5 py-2 ml-4 md:text-4xl font-niconne mb-full md:mb-0 rounded-xl ${rightLinkClasses}`}
               onMouseEnter={() => setLinkHovered("right")}
               onMouseLeave={() => setLinkHovered("none")}
             >
