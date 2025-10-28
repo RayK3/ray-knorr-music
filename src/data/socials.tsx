@@ -3,7 +3,7 @@ import React from "react";
 export interface SocialMediaIconType {
   name: string;
   href: string;
-  icon: (props: any) => JSX.Element;
+  icon: (props: any) => React.JSX.Element;
 }
 
 export const musicSocials: SocialMediaIconType[] = [

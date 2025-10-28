@@ -8,7 +8,7 @@ interface TooltipProps {
 export const Tooltip = ({
   children,
   className = "",
-}: TooltipProps): JSX.Element => {
+}: TooltipProps): React.JSX.Element => {
   const [isVisible, setIsVisible] = useState(false);
   return (
     <div

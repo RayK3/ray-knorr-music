@@ -7,7 +7,7 @@ interface BackButtonProps {
 
 export const BackButton = ({
   className = "w-6 h-6",
-}: BackButtonProps): JSX.Element => {
+}: BackButtonProps): React.JSX.Element => {
   const navigate = useNavigate();
 
   const goBack = () => {

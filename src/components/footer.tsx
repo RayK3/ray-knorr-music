@@ -16,7 +16,7 @@ export const Footer = ({
   socials,
   bgColour = "",
   className = "",
-}: FooterProps): JSX.Element => {
+}: FooterProps): React.JSX.Element => {
   const [atBottom, setAtBottom] = useState(false);
 
   useEffect(() => {

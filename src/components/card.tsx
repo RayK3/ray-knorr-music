@@ -2,7 +2,7 @@ import React from "react";
 
 interface CardProps {
   title?: string;
-  body: string | JSX.Element;
+  body: string | React.JSX.Element;
   bgColour: string;
   textColour: string;
   borderColour?: string;
@@ -20,7 +20,7 @@ export const Card = ({
   className = "",
   titleClassName = "",
   bodyClassName = "",
-}: CardProps): JSX.Element => {
+}: CardProps): React.JSX.Element => {
   return (
     <div
       className={`mx-8 border-2 rounded-2xl whitespace-pre-line ${bgColour} ${borderColour} ${className}`}

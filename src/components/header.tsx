@@ -14,7 +14,7 @@ export const Header = ({
   textColour,
   links,
   className = "",
-}: HeaderProps): JSX.Element => {
+}: HeaderProps): React.JSX.Element => {
   return (
     <header className={`w-full flex flex-row justify-end ${className}`}>
       <div
