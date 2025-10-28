@@ -51,7 +51,7 @@ export const Footer = ({
         <p
           className={`my-3 ml-auto text-xs leading-5 text-center ${textColour}`}
         >
-          &copy; 2024 Ray Knorr. All rights reserved.
+          &copy; 2026 Ray Knorr. All rights reserved.
         </p>
       </div>
     </footer>
