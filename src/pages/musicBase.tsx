@@ -25,17 +25,14 @@ export const MusicBase = ({
   }, [title]);
 
   return (
-    <div
-      className={`relative w-screen h-dvh overflow-hidden ${bg}`}
-      style={style}
-    >
-      <div className="flex flex-col h-full overflow-auto">
+    <div className={`relative w-full overflow-hidden ${bg}`} style={style}>
+      <div className="flex flex-col overflow-auto min-h-dvh">
         <Header
           textColour="text-light-sunglow hover:text-sunglow"
           className="bg-dark-raisin-black"
           links={musicHeaderLinks}
         />
-        <div className="relative grow overflow-auto">{children}</div>
+        <div className="relative overflow-auto grow">{children}</div>
         <Footer
           textColour="text-sunglow"
           iconColour="text-light-sunglow hover:text-sunglow"

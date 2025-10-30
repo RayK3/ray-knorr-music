@@ -318,6 +318,12 @@
   .h-screen {
     height: 100vh;
   }
+  .min-h-dvh {
+    min-height: 100dvh;
+  }
+  .min-h-screen {
+    min-height: 100vh;
+  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
@@ -538,6 +544,12 @@
   }
   .px-10 {
     padding-inline: calc(var(--spacing) * 10);
+  }
+  .px-12 {
+    padding-inline: calc(var(--spacing) * 12);
+  }
+  .px-18 {
+    padding-inline: calc(var(--spacing) * 18);
   }
   .py-1\.5 {
     padding-block: calc(var(--spacing) * 1.5);
